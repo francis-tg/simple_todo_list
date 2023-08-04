@@ -97,3 +97,9 @@ button.btn:hover{
     display: flex;
     gap: 10px;
 }
+
+@media screen and (max-width:780px) {
+    .container{
+        margin:0 ;
+    }
+}
