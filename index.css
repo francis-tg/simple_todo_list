@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: #393939;
+}
+
+.container{
+    margin: 150px;
+}
+
+.container .todo{
+    padding: 0 20px;
+}
+
+.todo .todo-header{
+    /*background-color: aquamarine;*/
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+input.form-control{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid aquamarine;
+    outline: none;
+    text-indent: 15px;
+}
+
+input.form-control:focus{
+    box-shadow: 0 0 0.75rem 0  aquamarine;
+    transition: box-shadow .2s ease-in-out;
+    outline: 1px solid aquamarine;
+}
+
+button.btn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid aquamarine;
+    background: whitesmoke;
+    transition: all .5s ease-in-out;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button.btn:hover{
+    box-shadow: 0 0 0.75rem 0  aquamarine;
+    transition: box-shadow .5s ease-in-out;
+    cursor: pointer;
+}
+
+.btn.btn-submit{
+    background: aquamarine;
+}
+.btn-sm{
+    height: 25px !important;
+    padding: 0 !important;
+    width: 50px !important;
+    
+}
+.btn-danger{
+    background:#ff2020;
+    border: 1px solid #ff2020 !important;
+}
+.btn-danger:hover{
+    box-shadow: 0 0 0.75rem 0  #ff2020 !important;
+    transition: box-shadow .5s ease-in-out;
+}
+.btn.btn-submit:hover{
+    background: whitesmoke;
+    color: #007e54;
+    transition: all .5s ease-in-out;
+}
+.todo .todo-content{
+    margin-top: 50px;
+    border-top: 1px solid whitesmoke;
+    padding: 20px 0;
+}
+
+.todo .todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.d-flex{
+    display: flex;
+    gap: 10px;
+}
